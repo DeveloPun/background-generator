@@ -1,0 +1,23 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/DeveloPun/background-generator#readme",
+  "bugs": {
+    "url": "https://github.com/DeveloPun/background-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloPun/background-generator.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
